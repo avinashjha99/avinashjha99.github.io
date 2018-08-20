@@ -1,5 +1,7 @@
 ---
 published: true
+layout: default
+comments: true
 ---
 
 Quotes serve multiple purpose. Sometimes they are like a lighthouse. In the event of darkness, they act as a guiding force. At other times, it's just a means of expressing feelings or emotions. Various famous personalities sum up their experiences in quotations. There are thousand of quotes spanning across different themes. In fact, there are complete books written on quotations. One of them is a book titled    *[The ultimate book of Quotations](https://www.amazon.com/Ultimate-Book-Quotations-Joseph-Demakis/dp/1481053027)* written by Joseph M Demakis. The book is 542 page long and rated 4.2. 
