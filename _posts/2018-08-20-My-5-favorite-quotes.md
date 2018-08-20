@@ -1,6 +1,5 @@
 ---
 published: true
-comments: true
 
 ---
 
