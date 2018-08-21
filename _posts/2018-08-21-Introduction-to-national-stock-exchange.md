@@ -32,15 +32,13 @@ The list of industries are captured in the below list:
 
 Now let's try to answer some basic questions to get a better understanding of the NSE.
 
-~~~
-How big is NSE?
-~~~
+
+> How big is NSE?
 
 The total market capitalization of companies listed on the NSE is approximately $ 2.15 trillion. Now to give you an idea this is approximately equal to India's GDP in 2016 quoted by World Bank as $ 2.28 trillion.
 
-~~~
-What kind of companies constitute NSE?
-~~~
+
+> What kind of companies constitute NSE?
 
 To answer this question, we have divided companies into 7 categories based on the their market cap size.
 
@@ -97,9 +95,8 @@ To answer this question, we have divided companies into 7 categories based on th
 }
 {% endmermaid %}
 
-~~~
-How many companies are there in each industry?
-~~~
+
+> How many companies are there in each industry?
 
 The first cluster contains than 100 listed companies each.  In this cluster, most number of listed companies are in the Manufacturing industry (210), followed by Banking and Finance (167). The Engineering (131), Chemical (105) and Technology (105) industries are other members of this cluster. If you observe this cluster closely, you would notice that all most all of the industries are capital intesive this category.
 
@@ -107,9 +104,8 @@ The second cluster contains the industries having between 50-100 companies. Ceme
 
 The third cluster contains all the remaining industries. This cluster includes Media and Entertainment (47), Telecom (32), Conglomorates (30), Oil and Gas (21), Utilities (26), Consumer non-durables (29), Consumer durables (11) and all other 150 niche categories clubbed as others.
 
-~~~
-How do industries compare against each other based on their relative size?
-~~~
+
+> How do industries compare against each other based on their relative size?
 
 The following table ranks the industries based on their total market capitalization (in INR thousand Cr) values:
 
@@ -139,9 +135,8 @@ Rank| Company  |Toal Market Cap (in INR thousand Cr)
 22|	Gold ETF	|1
 
 
-~~~
-Who are the topgun companies in each industry?
-~~~
+
+> Who are the topgun companies in each industry?
 
 For this let's go cluster by cluster.
 
