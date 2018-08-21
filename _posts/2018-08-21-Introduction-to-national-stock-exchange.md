@@ -44,7 +44,7 @@ What kind of companies constitute NSE?
 
 To answer this question, we have divided companies into 7 categories based on the their market cap size.
 
-```chart
+{% mermaid %}
 {
   "type": "bar",
   "data": {
@@ -95,7 +95,7 @@ To answer this question, we have divided companies into 7 categories based on th
   },
   "options": {}
 }
-```
+{% endmermaid %}
 
 ~~~
 How many companies are there in each industry?
@@ -147,16 +147,16 @@ For this let's go cluster by cluster.
 
 For the most crowded sector the list is captured in the below graph:
 
-```mermaid
+{% mermaid %}
 graph TD
 A[Cluster 1] --> C{Industries with </br> >100 companies}
 C -->|Manufacturing| D[Page Industries </br> Bharat Elec </br> Bharat Forge </br> CG Consumer </br> Supreme Ind </br> Astral Poly Tec</br> Sundram </br>Max Financial</br> SRF </br>Arvind]
 C -->|Engineering| E[Aarti Ind</br>Larsen</br>Adani Ports</br>Havells India</br>Siemens</br>BHEL</br>Graphite India</br>Cummins</br>HEG</br>AIA Engineering</br>Quess Corp]
 C -->|Technology| F[TCS</br>Infosys</br>Wipro</br>HCL Tech</br>Tech Mahindra</br>Oracle Fin Serv</br>L&T Infotech</br>MphasiS</br>Mindtree</br>L&T Technology]
 C --> |Banking & Finance| G[HDFC Bank</br>HDFC</br>SBI</br>Kotak Mahindra</br>ICICI Bank</br>Bajaj Finance</br>Axis Bank</br>IndusInd Bank</br>Bajaj Finserv</br>Yes Bank]
-```
+{% endmermaid %}
 
-```mermaid
+{% mermaid %}
 graph TD
 A[Cluster 2] --> C{Industries with </br> > 50-100 companies}
 C -->|Automobiles| D[Maruti Suzuki</br>M&M</br>Eicher Motors</br>Bajaj Auto</br>Tata Motors</br>Hero Motocorp</br>Motherson Sumi</br>Bosch</br>Ashok Leyland</br>MRF]
@@ -166,8 +166,9 @@ C --> |Metals &</br>Mining| G[Coal India</br>Hind Zinc</br>JSW Steel</br>Vedanta
 C --> |Pharamaceuticals| H[Sun Pharma</br>Cipla</br>Piramal Enter</br>Dr Reddys Labs</br>Lupin</br>Cadila Health</br>Aurobindo Pharm</br>Biocon</br>Divis Labs</br>Torrent Pharma]
 C --> |Metals &</br>Mining| I[Avenue Supermar</br>DLF</br>Future Retail</br>Oberoi Realty</br>Godrej Prop</br>Aditya Birla F</br>Trent</br>HUDCO</br>Phoenix Mills</br>Prestige Estate]
 C --> |Services| J[Interglobe Avi</br>Container Corp</br>Adani Enterpris</br>Rajesh Exports</br>Indian Hotels</br>Apollo Hospital</br>EIH</br>Blue Dart</br>Aegis Logistics</br>Fortis Health]
-```
-```mermaid
+{% endmermaid %}
+
+{% mermaid %}
 graph TD
 A[Cluster 3] --> C{Industries with </br> <50 companies}
 C -->|Media &</br>Entertainment| D[Zee Entertain</br>Sun TV Network</br>Dish TV</br>TV18 Broadcast</br>PVR</br>DB Corp</br>JagranPrakashan</br>Ent Network</br>Ind TV</br>TodayNetwork</br>INOX Leisure]
@@ -176,7 +177,7 @@ C -->|Telecom|F[Bharti Airtel</br>Bharti Infratel</br>Idea Cellular</br>Honeywel
 C -->|Utilities &</br> Oil & Gas|G[NTPC</br>Power Grid Corp</br>NHPC</br>Tata Power</br>CESC</br>NLC India</br>SJVN</br>JSW Energy</br>Torrent Power</br>Reliance Infra</br> Reliance </br>ONGC </br>IOC</br>GAIL</br>BPCL</br>HPCL</br>Petronet LNG</br>Oil India</br>IGL</br>MRPL]
 C -->|Conglomorates|H[SBI Life Insura</br>Grasim</br>General Insuran</br>ICICI Lombard</br>Hindustan Aeron</br>3M India</br>Voltas</br>Century</br>DCM Shriram</br>Bombay Dyeing]
 C -->|Others-</br>Gold & ETF,</br>Tobacco,></br>etc.|I[HDFC Gold ETF</br>UTI - Gold</br>R ETF Gold BeES</br>SBI Gold ETF</br>IDBI Gold ETF</br>Birla Gold ETF</br>Invesco India</br>ITC</br>HDFC Life</br>Titan Company</br>New India Assur</br>AB Capital</br>Jubilant Food</br>Info Edge</br>Adani Trans</br>Bharat 22 ETF</br>Reliance Nippon</br>Infibeam Incorp]
-```
+{% endmermaid %}
 
 To give you an idea, the companies mentioned above alone constitute about INR 118 lakh crore of market capitalization or 78% or NSE's total market capitalization.
 
