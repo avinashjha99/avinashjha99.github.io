@@ -43,7 +43,7 @@ The total market capitalization of companies listed on the NSE is approximately 
 To answer this question, we have divided companies into 7 categories based on the their market cap size.
 <canvas id="myChart" width="400" height="400"></canvas>
 <script>
-  var ctx= var ctx = document.getElementById("myChart");
+  var ctx = document.getElementById("myChart");
   var myChart = new Chart(ctx, {
   "type": "bar",
   "data": {
