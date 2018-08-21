@@ -143,35 +143,35 @@ For the most crowded sector the list is captured in the below graph:
 
 <div class="mermaid">
 graph TD
-A[Cluster 1] --> C{Industries with </br> >100 companies}
-C -->|Manufacturing| D[Page Industries </br> Bharat Elec </br> Bharat Forge </br> CG Consumer </br> Supreme Ind </br> Astral Poly Tec</br> Sundram </br>Max Financial</br> SRF </br>Arvind]
-C -->|Engineering| E[Aarti Ind</br>Larsen</br>Adani Ports</br>Havells India</br>Siemens</br>BHEL</br>Graphite India</br>Cummins</br>HEG</br>AIA Engineering</br>Quess Corp]
-C -->|Technology| F[TCS</br>Infosys</br>Wipro</br>HCL Tech</br>Tech Mahindra</br>Oracle Fin Serv</br>L&T Infotech</br>MphasiS</br>Mindtree</br>L&T Technology]
-C --> |Banking & Finance| G[HDFC Bank</br>HDFC</br>SBI</br>Kotak Mahindra</br>ICICI Bank</br>Bajaj Finance</br>Axis Bank</br>IndusInd Bank</br>Bajaj Finserv</br>Yes Bank]
-</div>
+    A[Cluster 1] --> C{Industries with </br> >100 companies}
+    C -->|Manufacturing| D[Page Industries </br> Bharat Elec </br> Bharat Forge </br> CG Consumer </br> Supreme Ind </br> Astral Poly Tec</br> Sundram </br>Max Financial</br> SRF </br>Arvind]
+    C -->|Engineering| E[Aarti Ind</br>Larsen</br>Adani Ports</br>Havells India</br>Siemens</br>BHEL</br>Graphite India</br>Cummins</br>HEG</br>AIA Engineering</br>Quess Corp]
+    C -->|Technology| F[TCS</br>Infosys</br>Wipro</br>HCL Tech</br>Tech Mahindra</br>Oracle Fin Serv</br>L&T Infotech</br>MphasiS</br>Mindtree</br>L&T Technology]
+    C --> |Banking & Finance| G[HDFC Bank</br>HDFC</br>SBI</br>Kotak Mahindra</br>ICICI Bank</br>Bajaj Finance</br>Axis Bank</br>IndusInd Bank</br>Bajaj Finserv</br>Yes Bank]
+    </div>
 
 <div class="mermaid">
 graph TD
-A[Cluster 2] --> C{Industries with </br> > 50-100 companies}
-C -->|Automobiles| D[Maruti Suzuki</br>M&M</br>Eicher Motors</br>Bajaj Auto</br>Tata Motors</br>Hero Motocorp</br>Motherson Sumi</br>Bosch</br>Ashok Leyland</br>MRF]
-C -->|Cements &</br>Construction| E[UltraTechCement</br>Shree Cements</br>Ambuja Cements</br>ACC</br>Dalmia Bharat</br>Ramco Cements</br>Dilip Buildcon</br>Kajaria Ceramic</br>Rain Industries</br>OCL India]
-C -->|Foods and Beverages| F[Nestle</br>Britannia</br>United Spirits</br>United Brewerie</br>GlaxoSmith Con</br>Tata Global Bev</br>Varun Beverages</br>Hatsun Agro</br>Bombay Burmah</br>KRBL]
-C --> |Metals &</br>Mining| G[Coal India</br>Hind Zinc</br>JSW Steel</br>Vedanta</br>Tata Steel</br>Hindalco</br>NMDC</br>SAIL</br>Jindal Steel</br>NALCO]
-C --> |Pharamaceuticals| H[Sun Pharma</br>Cipla</br>Piramal Enter</br>Dr Reddys Labs</br>Lupin</br>Cadila Health</br>Aurobindo Pharm</br>Biocon</br>Divis Labs</br>Torrent Pharma]
-C --> |Metals &</br>Mining| I[Avenue Supermar</br>DLF</br>Future Retail</br>Oberoi Realty</br>Godrej Prop</br>Aditya Birla F</br>Trent</br>HUDCO</br>Phoenix Mills</br>Prestige Estate]
-C --> |Services| J[Interglobe Avi</br>Container Corp</br>Adani Enterpris</br>Rajesh Exports</br>Indian Hotels</br>Apollo Hospital</br>EIH</br>Blue Dart</br>Aegis Logistics</br>Fortis Health]
-</div>
+    A[Cluster 2] --> C{Industries with </br> > 50-100 companies}
+    C -->|Automobiles| D[Maruti Suzuki</br>M&M</br>Eicher Motors</br>Bajaj Auto</br>Tata Motors</br>Hero Motocorp</br>Motherson Sumi</br>Bosch</br>Ashok Leyland</br>MRF]
+    C -->|Cements &</br>Construction| E[UltraTechCement</br>Shree Cements</br>Ambuja Cements</br>ACC</br>Dalmia Bharat</br>Ramco Cements</br>Dilip Buildcon</br>Kajaria Ceramic</br>Rain Industries</br>OCL India]
+    C -->|Foods and Beverages| F[Nestle</br>Britannia</br>United Spirits</br>United Brewerie</br>GlaxoSmith Con</br>Tata Global Bev</br>Varun Beverages</br>Hatsun Agro</br>Bombay Burmah</br>KRBL]
+    C --> |Metals &</br>Mining| G[Coal India</br>Hind Zinc</br>JSW Steel</br>Vedanta</br>Tata Steel</br>Hindalco</br>NMDC</br>SAIL</br>Jindal Steel</br>NALCO]
+    C --> |Pharamaceuticals| H[Sun Pharma</br>Cipla</br>Piramal Enter</br>Dr Reddys Labs</br>Lupin</br>Cadila Health</br>Aurobindo Pharm</br>Biocon</br>Divis Labs</br>Torrent Pharma]
+    C --> |Metals &</br>Mining| I[Avenue Supermar</br>DLF</br>Future Retail</br>Oberoi Realty</br>Godrej Prop</br>Aditya Birla F</br>Trent</br>HUDCO</br>Phoenix Mills</br>Prestige Estate]
+    C --> |Services| J[Interglobe Avi</br>Container Corp</br>Adani Enterpris</br>Rajesh Exports</br>Indian Hotels</br>Apollo Hospital</br>EIH</br>Blue Dart</br>Aegis Logistics</br>Fortis Health]
+    </div>
 
 <div class="mermaid">
 graph TD
-A[Cluster 3] --> C{Industries with </br> <50 companies}
-C -->|Media &</br>Entertainment| D[Zee Entertain</br>Sun TV Network</br>Dish TV</br>TV18 Broadcast</br>PVR</br>DB Corp</br>JagranPrakashan</br>Ent Network</br>Ind TV</br>TodayNetwork</br>INOX Leisure]
-C -->|Consumer</br>Durables &</br> Non-durables| E[Whirlpool</br>Symphony</br>TTK Prestige</br>Blue Star</br>Bajaj Electric</br>IFB Industries</br>HUL</br>Godrej Consumer</br>Dabur India</br>Marico</br>P and G</br>Colgate</br>Emami</br>Gillette India</br>Godrej Ind]
-C -->|Telecom|F[Bharti Airtel</br>Bharti Infratel</br>Idea Cellular</br>Honeywell Autom</br>Tata Comm</br>Sterlite Techno</br>Finolex Cables</br>ITI</br>Reliance Comm]
-C -->|Utilities &</br> Oil & Gas|G[NTPC</br>Power Grid Corp</br>NHPC</br>Tata Power</br>CESC</br>NLC India</br>SJVN</br>JSW Energy</br>Torrent Power</br>Reliance Infra</br> Reliance </br>ONGC </br>IOC</br>GAIL</br>BPCL</br>HPCL</br>Petronet LNG</br>Oil India</br>IGL</br>MRPL]
-C -->|Conglomorates|H[SBI Life Insura</br>Grasim</br>General Insuran</br>ICICI Lombard</br>Hindustan Aeron</br>3M India</br>Voltas</br>Century</br>DCM Shriram</br>Bombay Dyeing]
-C -->|Others-</br>Gold & ETF,</br>Tobacco,></br>etc.|I[HDFC Gold ETF</br>UTI - Gold</br>R ETF Gold BeES</br>SBI Gold ETF</br>IDBI Gold ETF</br>Birla Gold ETF</br>Invesco India</br>ITC</br>HDFC Life</br>Titan Company</br>New India Assur</br>AB Capital</br>Jubilant Food</br>Info Edge</br>Adani Trans</br>Bharat 22 ETF</br>Reliance Nippon</br>Infibeam Incorp]
-</div>
+    A[Cluster 3] --> C{Industries with </br> <50 companies}
+    C -->|Media &</br>Entertainment| D[Zee Entertain</br>Sun TV Network</br>Dish TV</br>TV18 Broadcast</br>PVR</br>DB Corp</br>JagranPrakashan</br>Ent Network</br>Ind TV</br>TodayNetwork</br>INOX Leisure]
+    C -->|Consumer</br>Durables &</br> Non-durables| E[Whirlpool</br>Symphony</br>TTK Prestige</br>Blue Star</br>Bajaj Electric</br>IFB Industries</br>HUL</br>Godrej Consumer</br>Dabur India</br>Marico</br>P and G</br>Colgate</br>Emami</br>Gillette India</br>Godrej Ind]
+    C -->|Telecom|F[Bharti Airtel</br>Bharti Infratel</br>Idea Cellular</br>Honeywell Autom</br>Tata Comm</br>Sterlite Techno</br>Finolex Cables</br>ITI</br>Reliance Comm]
+    C -->|Utilities &</br> Oil & Gas|G[NTPC</br>Power Grid Corp</br>NHPC</br>Tata Power</br>CESC</br>NLC India</br>SJVN</br>JSW Energy</br>Torrent Power</br>Reliance Infra</br> Reliance </br>ONGC </br>IOC</br>GAIL</br>BPCL</br>HPCL</br>Petronet LNG</br>Oil India</br>IGL</br>MRPL]
+    C -->|Conglomorates|H[SBI Life Insura</br>Grasim</br>General Insuran</br>ICICI Lombard</br>Hindustan Aeron</br>3M India</br>Voltas</br>Century</br>DCM Shriram</br>Bombay Dyeing]
+    C -->|Others-</br>Gold & ETF,</br>Tobacco,></br>etc.|I[HDFC Gold ETF</br>UTI - Gold</br>R ETF Gold BeES</br>SBI Gold ETF</br>IDBI Gold ETF</br>Birla Gold ETF</br>Invesco India</br>ITC</br>HDFC Life</br>Titan Company</br>New India Assur</br>AB Capital</br>Jubilant Food</br>Info Edge</br>Adani Trans</br>Bharat 22 ETF</br>Reliance Nippon</br>Infibeam Incorp]
+    </div>
 
 To give you an idea, the companies mentioned above alone constitute about INR 118 lakh crore of market capitalization or 78% or NSE's total market capitalization.
 
