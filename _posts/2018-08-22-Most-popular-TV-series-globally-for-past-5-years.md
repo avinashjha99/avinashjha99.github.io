@@ -20,8 +20,8 @@ Let's go (reverse) chronologically:
   <img src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d8/Game_of_Thrones_title_card.jpg/250px-Game_of_Thrones_title_card.jpg" alt="Game of Thrones" /> </div>
   <div class="carousel-cell">
   <img src="https://upload.wikimedia.org/wikipedia/en/thumb/d/df/Iron_Fist_Netflix.png/250px-Iron_Fist_Netflix.png" alt="Iron Fist" /> </div>
-  <div class="carousel-cell">
-  <img src="https://resize.indiatvnews.com/en/centered/oldbucket/715_431/entertainmentbollywood/IndiaTvf70f37_bigg_boss.jpg" alt="Big Boss" /></div>
+  <!-- <div class="carousel-cell">
+  <img src="https://resize.indiatvnews.com/en/centered/oldbucket/715_431/entertainmentbollywood/IndiaTvf70f37_bigg_boss.jpg" alt="Big Boss" /></div> -->
   <div class="carousel-cell">
   <img src="https://upload.wikimedia.org/wikipedia/en/thumb/9/98/Riverdale.png/250px-Riverdale.png" alt="Riverdale" /></div>
     <div class="carousel-cell">
