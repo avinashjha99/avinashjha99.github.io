@@ -10,24 +10,14 @@ Let's go (reverse) chronologically:
 > 2017
 
 <div class="carousel" data-flickity='{ "wrapAround": true, "imagesLoaded": true, "adaptiveHeight": true}'>
-  <div class="carousel-cell">
-  <img src="https://s15.postimg.cc/4zzk5hfsb/Stranger_Things_logo.png" alt="Stranger Things" /></div>
-  <div class="carousel-cell">
-  <img src="https://s15.postimg.cc/uirwii723/Netflix_s_13_Reasons_Why_title_screen.png" alt="13 Reasons Why" /> </div>
-  <div class="carousel-cell">
-  <img src="https://s15.postimg.cc/pwvsa4qnv/Big_Brother_Brasil_logo_4.jpg" alt="Big Brother Brasil" /></div>
-  <div class="carousel-cell">
-  <img src="https://s15.postimg.cc/gp3jtf463/250px-_Game_of_Thrones_title_card.jpg" alt="Game of Thrones" /> </div>
-  <div class="carousel-cell">
-  <img src="https://s15.postimg.cc/ky89vmpfv/Iron_Fist_Netflix.png" alt="Iron Fist" /> </div>
-  <div class="carousel-cell">
-  <img src="https://s15.postimg.cc/csq7xge1n/India_Tvf70f37_bigg_boss.jpg" alt="Big Boss" /></div>
-  <div class="carousel-cell">
-  <img src="https://s15.postimg.cc/p7czxt0ez/Riverdale.png" alt="Riverdale" /></div>
-    <div class="carousel-cell">
-  <img src="https://s15.postimg.cc/9lvodtlvv/American_Gods_logo.png" alt="American Gods" /></div>
-      <div class="carousel-cell">
-  <img src="https://s15.postimg.cc/roor52s17/The_Kapil_Sharma_Show.png" alt="The Kapil Sharma Show" /></div>
-        <div class="carousel-cell">
-  <img src="https://s15.postimg.cc/sqyxnkl4b/250px-_Mindhunter_Logo.png" alt="Mindhunter" /></div>
+  <img src="https://s15.postimg.cc/4zzk5hfsb/Stranger_Things_logo.png" alt="Stranger Things" />
+  <img src="https://s15.postimg.cc/uirwii723/Netflix_s_13_Reasons_Why_title_screen.png" alt="13 Reasons Why" />
+  <img src="https://s15.postimg.cc/pwvsa4qnv/Big_Brother_Brasil_logo_4.jpg" alt="Big Brother Brasil" />
+  <img src="https://s15.postimg.cc/gp3jtf463/250px-_Game_of_Thrones_title_card.jpg" alt="Game of Thrones" />
+  <img src="https://s15.postimg.cc/ky89vmpfv/Iron_Fist_Netflix.png" alt="Iron Fist" /> 
+  <img src="https://s15.postimg.cc/csq7xge1n/India_Tvf70f37_bigg_boss.jpg" alt="Big Boss" />
+  <img src="https://s15.postimg.cc/p7czxt0ez/Riverdale.png" alt="Riverdale" />
+  <img src="https://s15.postimg.cc/9lvodtlvv/American_Gods_logo.png" alt="American Gods" />
+  <img src="https://s15.postimg.cc/roor52s17/The_Kapil_Sharma_Show.png" alt="The Kapil Sharma Show" />
+  <img src="https://s15.postimg.cc/sqyxnkl4b/250px-_Mindhunter_Logo.png" alt="Mindhunter" />
 </div>
