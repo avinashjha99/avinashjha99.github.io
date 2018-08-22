@@ -9,7 +9,7 @@ Let's go (reverse) chronologically:
 
 > 2017
 
-<div class="carousel" data-flickity='{ "wrapAround": true, "imagesLoaded": true, "adaptiveHeight": true}'>
+<div class="carousel1" data-flickity='{ "wrapAround": true, "imagesLoaded": true, "adaptiveHeight": true}'>
   <img src="https://s15.postimg.cc/4zzk5hfsb/Stranger_Things_logo.png" alt="Stranger Things" width="320" height="240" />
   <img src="https://s15.postimg.cc/uirwii723/Netflix_s_13_Reasons_Why_title_screen.png" alt="13 Reasons Why" width="320" height="240"/>
   <img src="https://s15.postimg.cc/pwvsa4qnv/Big_Brother_Brasil_logo_4.jpg" alt="Big Brother Brasil" width="320" height="240"/>
@@ -20,4 +20,69 @@ Let's go (reverse) chronologically:
   <img src="https://s15.postimg.cc/9lvodtlvv/American_Gods_logo.png" alt="American Gods" width="320" height="240"/>
   <img src="https://s15.postimg.cc/roor52s17/The_Kapil_Sharma_Show.png" alt="The Kapil Sharma Show" width="320" height="240" />
   <img src="https://s15.postimg.cc/sqyxnkl4b/250px-_Mindhunter_Logo.png" alt="Mindhunter" width="320" height="240" />
+</div>
+
+>2016
+
+<div class="carousel1 js-flickity" data-flickity='{ "wrapAround": true, "imagesLoaded": true, "adaptiveHeight": true}'>
+  <div class="course-item slide">
+      <div class="course-summary card">
+          <div class="course-thumbnail">
+              <img src="img/mspaint-course.jpg" height="277" width="400" alt="MSPaint Image">
+          </div>
+          <div class="course-info">
+              <div class="course-topic webdesign">Web Design</div>
+              <h3 class="course-title">Rapid Prototyping with MSPaint</h3>
+              <div class="course-meta">
+                  <time class="course-date">10 Apr 2015</time>
+                  <span class="course-duration">2.3 hours</span>
+              </div>
+          </div>
+      </div> 
+  </div>
+  <div class="course-item slide">
+      <div class="course-summary card">
+          <div class="course-thumbnail">
+              <img src="img/mspaint-course.jpg" height="277" width="400" alt="MSPaint Image">
+          </div>
+          <div class="course-info">
+              <div class="course-topic webdesign">Web Design</div>
+              <h3 class="course-title">Rapid Prototyping with MSPaint</h3>
+              <div class="course-meta">
+                  <time class="course-date">10 Apr 2015</time>
+                  <span class="course-duration">2.3 hours</span>
+              </div>
+          </div>
+      </div> 
+  </div>
+  <div class="course-item slide">
+      <div class="course-summary card">
+          <div class="course-thumbnail">
+              <img src="img/mspaint-course.jpg" height="277" width="400" alt="MSPaint Image">
+          </div>
+          <div class="course-info">
+              <div class="course-topic webdesign">Web Design</div>
+              <h3 class="course-title">Rapid Prototyping with MSPaint</h3>
+              <div class="course-meta">
+                  <time class="course-date">10 Apr 2015</time>
+                  <span class="course-duration">2.3 hours</span>
+              </div>
+          </div>
+      </div> 
+  </div>
+  <div class="course-item slide">
+      <div class="course-summary card">
+          <div class="course-thumbnail">
+              <img src="img/mspaint-course.jpg" height="277" width="400" alt="MSPaint Image">
+          </div>
+          <div class="course-info">
+              <div class="course-topic webdesign">Web Design</div>
+              <h3 class="course-title">Rapid Prototyping with MSPaint</h3>
+              <div class="course-meta">
+                  <time class="course-date">10 Apr 2015</time>
+                  <span class="course-duration">2.3 hours</span>
+              </div>
+          </div>
+      </div> 
+  </div>
 </div>
