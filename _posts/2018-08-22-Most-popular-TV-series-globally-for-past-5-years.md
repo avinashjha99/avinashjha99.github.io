@@ -9,7 +9,7 @@ Let's go (reverse) chronologically:
 
 > 2017
 
-<div class="carousel js-flickity" data-flickity='{}'>
+<div class="js-flickity" data-flickity='{}'>
 <div class="card">
   <div class="container">
     <h4><b>Stranger Things</b></h4> 
