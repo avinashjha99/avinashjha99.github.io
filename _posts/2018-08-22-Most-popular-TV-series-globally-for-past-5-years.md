@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 Who does not like a TV series? TV series are a great form of entertainment. There are many genres of TV series and each of them serve different purpose. A light hearted comedy series makes your day (or night) and relieves your stress. A reality show gives many people hope that it does not always require celebrity charisma to be popular. A thriller initiates adrealine rush in your body. And the list goes on.. 
 
@@ -21,4 +21,3 @@ Let's go (reverse) chronologically:
   <img src="https://upload.wikimedia.org/wikipedia/en/8/89/The_Kapil_Sharma_Show.png" alt="The Kapil Sharma Show" />
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Mindhunter_Logo.svg/250px-Mindhunter_Logo.svg.png" alt="Mindhunter" />
 </div>
-
