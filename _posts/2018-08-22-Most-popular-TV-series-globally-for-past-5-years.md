@@ -9,6 +9,71 @@ Let's go (reverse) chronologically:
 
 > 2017
 
+<div class="carousel js-flickity" data-flickity='{}'>
+<div class="card">
+  <div class="container">
+    <h4><b>Stranger Things</b></h4> 
+    <p>Architect & Engineer</p> 
+  </div>
+</div>
+<div class="card">
+  <div class="container">
+    <h4><b>13 Reasons Why</b></h4> 
+    <p>Architect & Engineer</p> 
+  </div>
+</div>
+<div class="card">
+  <div class="container">
+    <h4><b>Big Brother Brasil</b></h4> 
+    <p>Architect & Engineer</p> 
+  </div>
+</div>
+<div class="card">
+  <div class="container">
+    <h4><b>Game of Thrones</b></h4> 
+    <p>Architect & Engineer</p> 
+  </div>
+</div>
+<div class="card">
+  <div class="container">
+    <h4><b>Iron Fist</b></h4> 
+    <p>Architect & Engineer</p> 
+  </div>
+</div>
+<div class="card">
+  <div class="container">
+    <h4><b>Big Boss</b></h4> 
+    <p>Architect & Engineer</p> 
+  </div>
+</div>
+<div class="card">
+  <div class="container">
+    <h4><b>Riverdale</b></h4> 
+    <p>Architect & Engineer</p> 
+  </div>
+</div>
+<div class="card">
+  <div class="container">
+    <h4><b>American Gods</b></h4> 
+    <p>Architect & Engineer</p> 
+  </div>
+</div>
+<div class="card">
+  <div class="container">
+    <h4><b>The Kapil Sharma Show</b></h4> 
+    <p>Architect & Engineer</p> 
+  </div>
+</div>
+
+<div class="card">
+  <div class="container">
+    <h4><b>Mindhunter</b></h4> 
+    <p>Architect & Engineer</p> 
+  </div>
+</div>
+</div>
+
+<!--
 <div class="carousel1 js-flickity" data-flickity='{}'>
   <div class="item">
       <img src="https://s15.postimg.cc/4zzk5hfsb/Stranger_Things_logo.png" alt="Stranger Things" width="320" height="240" />
@@ -51,5 +116,6 @@ Let's go (reverse) chronologically:
       <div class="title">Mindhunter</div>
   </div>
 </div>
+-->
 
 >2016
