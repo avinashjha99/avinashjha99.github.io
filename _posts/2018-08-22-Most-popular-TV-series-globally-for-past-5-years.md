@@ -8,7 +8,7 @@ In this article, we would look at the most popular TV shows of the past 5 years 
 Let's go (reverse) chronologically:
 
 
-<div class="carousel js-flickity" data-flickity='{}' style='height: 100px'>
+<div class="carousel js-flickity" data-flickity='{}'>
 <div class="carousel-cell">
   <div class="container">
     <h4><b>1</b></h4> 
@@ -73,7 +73,7 @@ Let's go (reverse) chronologically:
 </div>
 > 2017
 
-<div class="carousel js-flickity" data-flickity='{}' style='height: 100px'>
+<div class="carousel js-flickity" data-flickity='{}'>
 <div class="carousel-cell">
   <div class="container">
     <h4><b>1</b></h4> 
@@ -138,7 +138,7 @@ Let's go (reverse) chronologically:
 </div>
 > 2016
 
-<div class="carousel js-flickity" data-flickity='{}' style='height: 100px'>
+<div class="carousel js-flickity" data-flickity='{}' >
 <div class="carousel-cell">
   <div class="container">
     <h4><b>1</b></h4> 
@@ -203,7 +203,7 @@ Let's go (reverse) chronologically:
 </div>
 > 2015
 
-<div class="carousel js-flickity" data-flickity='{} style='height: 100px'>
+<div class="carousel js-flickity" data-flickity='{} >
 <div class="carousel-cell">
   <div class="container">
     <h4><b>1</b></h4> 
@@ -268,7 +268,7 @@ Let's go (reverse) chronologically:
 </div>
 > 2014
 
-<div class="carousel js-flickity" data-flickity='{}' style='height: 100px'>
+<div class="carousel js-flickity" data-flickity='{}'>
 <div class="carousel-cell">
   <div class="container">
     <h4><b>1</b></h4> 
@@ -333,7 +333,7 @@ Let's go (reverse) chronologically:
 </div>
 > 2013
 
-<div class="carousel js-flickity" data-flickity='{}' style='height: 100px'>
+<div class="carousel js-flickity" data-flickity='{}'>
 <div class="carousel-cell">
   <div class="container">
     <h4><b>Big Brother Brasil 12</b></h4> 
