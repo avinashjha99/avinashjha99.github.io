@@ -9,7 +9,7 @@ Let's go (reverse) chronologically:
 
 > 2017
 
-<div class="carousel" data-flickity='{ "wrapAround": true}'>
+<div class="carousel" data-flickity='{ "wrapAround": true, "imagesLoaded": true, "adaptiveHeight": true}'>
   <div class="carousel-cell">
   <img src="https://s15.postimg.cc/4zzk5hfsb/Stranger_Things_logo.png" alt="Stranger Things" /></div>
   <div class="carousel-cell">
