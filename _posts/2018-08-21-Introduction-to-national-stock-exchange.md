@@ -1,8 +1,6 @@
 ---
 published: true
 ---
-# National Stock Exchange of India
-
 Put it simply, National Stock Exchange is a marketplace where the equity of publicly listed companies are traded. As of 13th August 2018, there are a total of 1638 companies listed on NSE. These companies could be categorised into 22 broad industries (one of which is miscallaneous). 
 
 The list of industries are captured in the below list:
