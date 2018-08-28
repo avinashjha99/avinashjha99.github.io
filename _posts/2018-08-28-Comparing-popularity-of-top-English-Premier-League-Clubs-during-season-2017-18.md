@@ -4,8 +4,10 @@ published: false
 To compare the popularity of the English Premier League Clubs, I used the data provided by Google Keywords platform. The platform provides a measure of the total interest showed towards a particular entity by people during a selected period. In this case, I pulled out the data for 42 weeks starting 6th August 2017 and ending 20th May 2018. 
 First let me present the relative popularity of the teams in the line chart and table then we will continue the discussion by asking some pertinent questions:
 
-```chart
-{
+<canvas id="myChart" width="400" height="400"></canvas>
+<script>
+  var ctx = document.getElementById("myChart");
+  var myChart = new Chart(ctx,{
   "type": "line",
   "data": {
     "labels": [
@@ -385,7 +387,53 @@ First let me present the relative popularity of the teams in the line chart and 
     ]
   },
   "options": {}
-}
-```
+});
+</script>
+
+Here is the list of most popular teams for every week:
+
+Week # |	Week Ending|	Approximate EPL Match Week|	Most Popular Team of the Week on Google Search
+------|-----------|--------|-----------|
+Week 1|	06 August 2017|	-	|Man U
+Week 2	|13 August 2017	|Match Week 1	|Man U
+Week 3	|20 August 2017	|Match Week 2|	Man U
+Week 4	|27 August 2017	|Match Week 3|	Liverpool
+Week 5	|03 September 2017|	-|	Man U
+Week 6	|10 September 2017|	Match Week 4|	Man U
+Week 7	|17 September 2017|	Match Week 5|	Man U
+Week 8	|24 September 2017|	Match Week 6|	Man U
+Week 9	|01 October 2017|	Match Week 7|	Man U
+Week 10	|08 October 2017|	-	|Man U
+Week 11	|15 October 2017|	Match Week 8|	Man U
+Week 12	|22 October 2017|	Match Week 9|	Man U
+Week 13	|29 October 2017|	Match Week 10|	Man U
+Week 14	|05 November 2017|	Match Week 11|	Man U
+Week 15	|12 November 2017|	-	|Man U
+Week 16	|19 November 2017|	Match Week 12|	Man U
+Week 17	|26 November 2017|	Match Week 13-14|	Man U
+Week 18	|03 December 2017|	Match Week 15|	Man U
+Week 19	|10 December 2017|	Match Week 16|	Man City
+Week 20	|17 December 2017|	Match Week 17-18|	Man U
+Week 21	|24 December 2017|	Match Week 19|	Man U
+Week 22	|31 December 2017|	Match Week 20-21|	Man U/Liverpool
+Week 23	|07 January 2018|	Match Week 22|	Arsenal
+Week 24	|14 January 2018|	Match Week 23|	Man U
+Week 25	|21 January 2018|	Matche Week 24|	Man U
+Week 26	|28 January 2018|	Matche Week 25|Arsenal
+Week 27	|04 February 2018|	Match Week 26|	Arsenal
+Week 28	|11 February 2018|	Match Week 27|	Liverpool
+Week 29	|18 February 2018|	-	|Chelsea
+Week 31	|04 March 2018|	Match Week 28	|Man U
+Week 32	|11 March 2018|	Match Week 29	|Chelsea
+Week 33	|18 March 2018|	Match Week 30	|Man U
+Week 34	|25 March 2018|	Match Week 31	|Man U
+Week 35	|01 April 2018|	Match Week 32	|Liverpool
+Week 36	|08 April 2018|	Match Week 33	|Liverpool
+Week 37	|15 April 2018|	Match Week 34|	Man U
+Week 38	|22 April 2018|	Match Week 35|	Liverpool
+Week 39	|29 April 2018|	Match Week 36|	Liverpool
+Week 40	|06 May 2018|	Match Week 37|	Liverpool
+Week 41	|13 May 2018|	Match Week 38|	Man U
+Week 42	|20 May 2018|	-	|Liverpool
 
 
