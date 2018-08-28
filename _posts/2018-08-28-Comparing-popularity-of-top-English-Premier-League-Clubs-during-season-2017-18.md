@@ -388,8 +388,24 @@ First let me present the relative popularity of the teams in the line chart and 
   },
   "options": {}
 });
+
 </script>
 
+<style>
+  table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:2px solid #ff0000;
+}
+
+th{
+    border:2px solid #000000;
+}
+
+td{
+    border:1px solid #000000;
+}
+</style>
 Here is the list of most popular teams for every week:
 
 Week # |	Week Ending|	Approximate EPL Match Week|	Most Popular Team of the Week on Google Search
