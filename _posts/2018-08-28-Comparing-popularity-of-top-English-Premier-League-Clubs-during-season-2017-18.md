@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 To compare the popularity of the English Premier League Clubs, I used the data provided by Google Keywords platform. The platform provides a measure of the total interest showed towards a particular entity by people during a selected period. In this case, I pulled out the data for 42 weeks starting 6th August 2017 and ending 20th May 2018. 
 First let me present the relative popularity of the teams in the line chart and table then we will continue the discussion by asking some pertinent questions:
