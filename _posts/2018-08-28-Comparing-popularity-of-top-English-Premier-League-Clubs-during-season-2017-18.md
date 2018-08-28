@@ -436,4 +436,25 @@ Week 40	|06 May 2018|	Match Week 37|	Liverpool
 Week 41	|13 May 2018|	Match Week 38|	Man U
 Week 42	|20 May 2018|	-	|Liverpool
 
+Now let's go straight into questions:
 
+> Which was the most popular and least popular team over the period of 42 weeks?
+
+Man United was indeed the most popular team. However, it was only marginally ahead of Liverpool. Liverpool gained momentum towards the last few weeks and that too by huge margins.
+
+Man City was the least popular team. And that too by huge margin. It was no where near the Chelsea which was at 3rd place. However, Chelsea was only marginally behind Arsenal. 
+
+> Why were Arsenal and Chelsea were topping the charts in the first quarter of 2018?
+
+Arsenal and Chelsea lost of a string of matches during that time. And because of this, coaches from both the teams [Arsène Wenger](https://en.wikipedia.org/wiki/Arsène_Wenger) and [Antonio Conte](https://en.wikipedia.org/wiki/Antonio_Conte) drew huge criticism from media and their fans. This might have led to the rise in popularity of the teams. 
+So winning the matches and cups are not always the only strategy to be popular!
+
+> What was the reason behind phenomenal rise in popularity of Liverpool towards the end?
+
+Liverpool had discovered a star in form of Mohammed Salah. He performed consistently during that season and hence his popularity grew. This might have helped Liverpool. In addition to rise of Mohammed Salah, Liverpool performed extremely well in Champion's League defeating big teams like Roma and Manchester United. Also, Liverpool ended the winning streak of Manchester City in English Premiere League.  All this probably sent the popularity of Liverpool through the roof.
+
+> What are other surprising insights from this data from 2017-18?
+
+The most surprising insight has to be the low popularity of Man City despite it's superb performance. The causes of rise of popularity of Liverpool seems to be exactly the reason of low poularity of Man City. Man City is full of expensive players and performs well as a team but no one outstanding star. Also, Man City did not go through Champion's League. Probably the lack of charismatic player and absence from Champions League Final may have withheld rise in popularity of Man City. 
+
+Man City is already trying to circumvent this problem by coming up with a TV documentary showing the success of their season 2017-18. The TV documentary focuses on how [Pep Guardiola](https://en.wikipedia.org/wiki/Pep_Guardiola) built the champion team. Probably, this will project him as the charismatic leader and coach.
