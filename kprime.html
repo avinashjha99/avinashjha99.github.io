@@ -59,17 +59,16 @@ jQuery(articles).each(function(i, el) {
 // 			 jQuery(".reading_area").html($(response).find(".artcl_txt.noprint").text());
 // 		 });
 		var xhttp2 = new XMLHttpRequest();
-		xhttp.onreadystatechange = function() {
+		xhttp2.onreadystatechange = function() {
     		if (this.readyState == 4 && this.status == 200) {
 			jQuery(".reading_area").html($(response).find(".artcl_txt.noprint").text());
 		};  
 			
-		xhttp.open("GET", url2 , true);
-		xhttp.send();
+		xhttp2.open("GET", url2 , true);
+		xhttp2.send();
 	});
 		
 		
-};
 	
 	var url = "https://bypasscors.herokuapp.com/api/?url=" + encodeURIComponent("https://prime.economictimes.indiatimes.com/") ;
   
