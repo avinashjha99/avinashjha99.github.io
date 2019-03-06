@@ -4,6 +4,8 @@
 </head>
 
 <body>
+	<div class="reading_area">
+	</div>
 	<style>
 		ul {
 			list-style:disc
@@ -19,9 +21,6 @@
   var url = "https://bypasscors.herokuapp.com/api/?url=" + encodeURIComponent("https://prime.economictimes.indiatimes.com/") ;
   
   $.get(url, function(response) { 
-    
-    console.log($(response)); 
-    var challenges = $(response).find('tbody tr').length;  
     var articles = jQuery(response).find("#topEditionListing article.main, #topEditionListing article").not(".slick-slide").not(".hide");
 var articleMapper = {};
 jQuery(articles).each(function(i, el) {
@@ -43,8 +42,17 @@ jQuery(articles).each(function(i, el) {
 		listMarkup += "<li><a href='http://googleweblight.in/?lite_url=" + encodedDomain + encodedLink + "'>"+articleMapper[key]['title']+"</a></li>";
 	}
 	  jQuery("body").append(listMarkup);
-  }); 
-  
+	  
+	  jQuery("ul").on("click", "li", function(e) {
+		e.preventDefault();
+		var link = jQuery(e.target).attr("href");
+		var url = "https://bypasscors.herokuapp.com/api/?url=" + encodeURIComponent(decodeURIComponent(link));
+		  
+		 $.get(url, function(response) { 
+		 	console.log(jQuery(response));
+		 });
+	})
+  });   
   
   
   </script>
