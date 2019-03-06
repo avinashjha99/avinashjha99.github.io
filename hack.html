@@ -4,7 +4,14 @@
 </head>
 
 <body>
-
+	<style>
+		ul {
+			list-style:disc
+		}
+		ul li {
+			margin:10px;
+		}
+	</style>
 <script> 
   
   
@@ -29,12 +36,11 @@ jQuery(articles).each(function(i, el) {
 	articleMapper[i].link = $(el).find("a").eq(0).attr("href");
 });
 	  
-console.table(articleMapper);
 	var listMarkup = "<ul>";
 	for(var key in articleMapper) {
 		var encodedDomain = encodeURIComponent('https://prime.economictimes.indiatimes.com');
 		var encodedLink = encodeURIComponent(articleMapper[key]['link'])
-		listMarkup += "<a href='http://googleweblight.in/?lite_url=" + encodedDomain + encodedLink + "'>"+articleMapper[key]['title']+"</a>";
+		listMarkup += "<li><a href='http://googleweblight.in/?lite_url=" + encodedDomain + encodedLink + "'>"+articleMapper[key]['title']+"</a></li>";
 	}
 	  jQuery("body").append(listMarkup);
   }); 
