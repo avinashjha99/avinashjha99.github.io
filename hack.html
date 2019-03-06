@@ -6,7 +6,15 @@
 <body>
 Run your scripts here:
 
-<script> $.get('https://crossorigin.me/https://www.google.com', function(response) { console.log(response); }); </script>
+<script> 
+  
+  
+  var url = "http://anyorigin.com/go?url=" + encodeURIComponent("https://www.google.com") ;
+  
+  $.get(url, function(response) { console.log(response); }); 
+  
+  
+  </script>
   
   
 </body>
