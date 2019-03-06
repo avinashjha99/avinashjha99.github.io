@@ -18,44 +18,54 @@
   
   
   
-  var url = "https://bypasscors.herokuapp.com/api/?url=" + encodeURIComponent("https://prime.economictimes.indiatimes.com/") ;
+//   var url = "https://bypasscors.herokuapp.com/api/?url=" + encodeURIComponent("https://prime.economictimes.indiatimes.com/") ;
   
-  $.get(url, function(response) { 
-    var articles = jQuery(response).find("#topEditionListing article.main, #topEditionListing article").not(".slick-slide").not(".hide");
-var articleMapper = {};
-jQuery(articles).each(function(i, el) {
-	articleMapper[i] = {};
-	if($(el).find("h1").text().trim().length) {
-		articleMapper[i].title = $(el).find("h1").text().trim();
-	} else if($(el).find("h2").text().trim().length){
-		articleMapper[i].title = $(el).find("h2").text().trim();
-	} else {
-		articleMapper[i].title = $(el).find("h3").text().trim();
-	}
-	articleMapper[i].link = $(el).find("a").eq(0).attr("href");
-});
+//   $.get(url, function(response) { 
+//     var articles = jQuery(response).find("#topEditionListing article.main, #topEditionListing article").not(".slick-slide").not(".hide");
+// var articleMapper = {};
+// jQuery(articles).each(function(i, el) {
+// 	articleMapper[i] = {};
+// 	if($(el).find("h1").text().trim().length) {
+// 		articleMapper[i].title = $(el).find("h1").text().trim();
+// 	} else if($(el).find("h2").text().trim().length){
+// 		articleMapper[i].title = $(el).find("h2").text().trim();
+// 	} else {
+// 		articleMapper[i].title = $(el).find("h3").text().trim();
+// 	}
+// 	articleMapper[i].link = $(el).find("a").eq(0).attr("href");
+// });
 	  
-	var listMarkup = "<ul>";
-	for(var key in articleMapper) {
-		var encodedDomain = encodeURIComponent('https://prime.economictimes.indiatimes.com');
-		var encodedLink = encodeURIComponent(articleMapper[key]['link'])
-		listMarkup += "<li><a href='http://googleweblight.in/?lite_url=" + encodedDomain + encodedLink + "'>"+articleMapper[key]['title']+"</a></li>";
-	}
-	  jQuery("body").append(listMarkup);
+// 	var listMarkup = "<ul>";
+// 	for(var key in articleMapper) {
+// 		var encodedDomain = encodeURIComponent('https://prime.economictimes.indiatimes.com');
+// 		var encodedLink = encodeURIComponent(articleMapper[key]['link'])
+// 		listMarkup += "<li><a href='http://googleweblight.in/?lite_url=" + encodedDomain + encodedLink + "'>"+articleMapper[key]['title']+"</a></li>";
+// 	}
+// 	  jQuery("body").append(listMarkup);
 	  
-	  jQuery("ul").on("click", "li", function(e) {
-		e.preventDefault();
-		var link = jQuery(e.target).attr("href");
+// 	  jQuery("ul").on("click", "li", function(e) {
+// 		e.preventDefault();
+// 		var link = jQuery(e.target).attr("href");
+		var link = getUrlVars()["link"];
 		var url = "https://bypasscors.herokuapp.com/api/?url=" + encodeURIComponent(decodeURIComponent(link));
 		  
 		 $.get(url, function(response) { 
 		 	console.log($(response).find(".artcl_txt.noprint").text());
 			 jQuery(".reading_area").html($(response).find(".artcl_txt.noprint").text());
 		 });
-	})
-  });   
+// 	})
+//   });   
   
   
+//added url parameter parser
+function getUrlVars() {
+    var vars = {};
+    var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+        vars[key] = value;
+    });
+    return vars;
+}
+	
   </script>
 	<noscript>JS is not supported.</noscript>
   
