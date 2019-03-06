@@ -16,7 +16,7 @@ Run your scripts here:
     
     console.log($(response)); 
     var challenges = $(response).find('tbody tr').length;  
-    var articles = jQuery(response).find("article:visible").not(".slick-slide");
+    var articles = jQuery(response).find("#topEditionListing article.main, #topEditionListing article").not(".slick-slide").not(".hide");
 var articleMapper = {};
 jQuery(articles).each(function(i, el) {
 	articleMapper[i] = {};
