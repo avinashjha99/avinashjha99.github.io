@@ -34,7 +34,7 @@ console.table(articleMapper);
 	for(var key in articleMapper) {
 		var encodedDomain = encodeURIComponent('https://prime.economictimes.indiatimes.com');
 		var encodedLink = encodeURIComponent(articleMapper[key]['link'])
-		linkMarkup += "<a href='https://googleweblight.in/?lite_url=" + encodedDomain + encodedLink + "'>"+articleMapper[key]['title']+"</a>";
+		listMarkup += "<a href='https://googleweblight.in/?lite_url=" + encodedDomain + encodedLink + "'>"+articleMapper[key]['title']+"</a>";
 	}
 	  jQuery("body").append(listMarkup);
   }); 
