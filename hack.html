@@ -28,7 +28,8 @@ jQuery(articles).each(function(i, el) {
 		articleMapper[i].title = $(el).find("h3").text().trim();
 	}
 	articleMapper[i].link = $(el).find("a").eq(0).attr("href");
-})
+});
+	  console.table(articleMapper);
   
   }); 
   
