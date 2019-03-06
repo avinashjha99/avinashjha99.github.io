@@ -50,6 +50,7 @@ jQuery(articles).each(function(i, el) {
 		  
 		 $.get(url, function(response) { 
 		 	console.log(jQuery(response));
+			 jQuery(".reading_area").html($(response).find(".artcl_txt.noprint").text());
 		 });
 	})
   });   
