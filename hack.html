@@ -10,9 +10,28 @@ Run your scripts here:
   
   
   
-  var url = "https://bypasscors.herokuapp.com/api/?url=" + encodeURIComponent("https://www.google.com") ;
+  var url = "https://bypasscors.herokuapp.com/api/?url=" + encodeURIComponent("https://prime.economictimes.indiatimes.com/") ;
   
-  $.get(url, function(response) { console.log(response); }); 
+  $.get(url, function(response) { 
+    
+    console.log(response); 
+    var challenges = $(response).find('tbody tr').length;  
+    var articles = jQuery(response).find("article:visible").not(".slick-slide");
+var articleMapper = {};
+jQuery(articles).each(function(i, el) {
+	articleMapper[i] = {};
+	if($(el).find("h1").text().trim().length) {
+		articleMapper[i].title = $(el).find("h1").text().trim();
+	} else if($(el).find("h2").text().trim().length){
+		articleMapper[i].title = $(el).find("h2").text().trim();
+	} else {
+		articleMapper[i].title = $(el).find("h3").text().trim();
+	}
+	articleMapper[i].link = $(el).find("a").eq(0).attr("href");
+})
+  
+  }); 
+  
   
   
   </script>
