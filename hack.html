@@ -4,7 +4,6 @@
 </head>
 
 <body>
-Run your scripts here:
 
 <script> 
   
@@ -31,7 +30,11 @@ jQuery(articles).each(function(i, el) {
 });
 	  
 console.table(articleMapper);
-  
+	var listMarkup = "<ul>";
+	for(var key in articleMapper) {
+listMarkup += "<li><a href='https://googleweblight.in/?lite_url=' + encodeURIComponent('https://prime.economictimes.indiatimes.com') + encodeURIComponent(articleMapper[key][link])>"+articleMapper[key][title]+"</a></li>";
+	}
+	  jQuery("body").append(listMarkup);
   }); 
   
   
