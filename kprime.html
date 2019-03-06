@@ -16,12 +16,14 @@
 	</style>
 <script> 
   
-  
-  
-  var url = "https://bypasscors.herokuapp.com/api/?url=" + encodeURIComponent("https://prime.economictimes.indiatimes.com/") ;
-  
-  $.get(url, function(response) { 
-    var articles = jQuery(response).find("#topEditionListing article.main, #topEditionListing article").not(".slick-slide").not(".hide");
+	
+	var xhttp = new XMLHttpRequest();
+	xhttp.onreadystatechange = function() {
+    	if (this.readyState == 4 && this.status == 200) {
+       
+//        document.getElementById("demo").innerHTML = xhttp.responseText;
+		
+		var articles = jQuery(xhttp.responseText).find("#topEditionListing article.main, #topEditionListing article").not(".slick-slide").not(".hide");
 var articleMapper = {};
 jQuery(articles).each(function(i, el) {
 	articleMapper[i] = {};
@@ -33,9 +35,12 @@ jQuery(articles).each(function(i, el) {
 		articleMapper[i].title = $(el).find("h3").text().trim();
 	}
 	articleMapper[i].link = $(el).find("a").eq(0).attr("href");
-});
-	  
-	var listMarkup = "<ul>";
+	
+    }
+		      
+		      
+		      
+		      var listMarkup = "<ul>";
 	for(var key in articleMapper) {
 		var encodedDomain = encodeURIComponent('https://prime.economictimes.indiatimes.com');
 		var encodedLink = encodeURIComponent(articleMapper[key]['link'])
@@ -47,14 +52,67 @@ jQuery(articles).each(function(i, el) {
 	  jQuery("ul").on("click", "li", function(e) {
 		e.preventDefault();
 		var link = jQuery(e.target).attr("href");
-		var url = "https://bypasscors.herokuapp.com/api/?url=" + encodeURIComponent(decodeURIComponent(link));
+		var url2 = "https://bypasscors.herokuapp.com/api/?url=" + encodeURIComponent(decodeURIComponent(link));
 		  
-		 $.get(url, function(response) { 
-		 	console.log($(response).find(".artcl_txt.noprint").text());
-			 jQuery(".reading_area").html($(response).find(".artcl_txt.noprint").text());
-		 });
+// 		 $.get(url, function(response) { 
+// 		 	console.log($(response).find(".artcl_txt.noprint").text());
+// 			 jQuery(".reading_area").html($(response).find(".artcl_txt.noprint").text());
+// 		 });
+		var xhttp2 = new XMLHttpRequest();
+		xhttp.onreadystatechange = function() {
+    		if (this.readyState == 4 && this.status == 200) {
+			jQuery(".reading_area").html($(response).find(".artcl_txt.noprint").text());
+		};  
+			
+		xhttp.open("GET", url2 , true);
+		xhttp.send();
 	})
-  });   
+		
+		
+};
+	
+	var url = "https://bypasscors.herokuapp.com/api/?url=" + encodeURIComponent("https://prime.economictimes.indiatimes.com/") ;
+  
+	xhttp.open("GET", url , true);
+	xhttp.send();
+  
+  
+  
+//   $.get(url, function(response) { 
+//     var articles = jQuery(response).find("#topEditionListing article.main, #topEditionListing article").not(".slick-slide").not(".hide");
+// var articleMapper = {};
+// jQuery(articles).each(function(i, el) {
+// 	articleMapper[i] = {};
+// 	if($(el).find("h1").text().trim().length) {
+// 		articleMapper[i].title = $(el).find("h1").text().trim();
+// 	} else if($(el).find("h2").text().trim().length){
+// 		articleMapper[i].title = $(el).find("h2").text().trim();
+// 	} else {
+// 		articleMapper[i].title = $(el).find("h3").text().trim();
+// 	}
+// 	articleMapper[i].link = $(el).find("a").eq(0).attr("href");
+// });
+	  
+// 	var listMarkup = "<ul>";
+// 	for(var key in articleMapper) {
+// 		var encodedDomain = encodeURIComponent('https://prime.economictimes.indiatimes.com');
+// 		var encodedLink = encodeURIComponent(articleMapper[key]['link'])
+//     listMarkup += "<li><div href='http://googleweblight.in/?lite_url=" + encodedDomain + encodedLink + "'>"+articleMapper[key]['title']+"</div></li>";
+
+// 	}
+// 	  jQuery("body").append(listMarkup);
+	  
+// 	  jQuery("ul").on("click", "li", function(e) {
+// 		e.preventDefault();
+// 		var link = jQuery(e.target).attr("href");
+// 		var url = "https://bypasscors.herokuapp.com/api/?url=" + encodeURIComponent(decodeURIComponent(link));
+		  
+// 		 $.get(url, function(response) { 
+// 		 	console.log($(response).find(".artcl_txt.noprint").text());
+// 			 jQuery(".reading_area").html($(response).find(".artcl_txt.noprint").text());
+// 		 });
+// 	})
+//   });   
   
   
   </script>
