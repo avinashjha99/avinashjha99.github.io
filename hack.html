@@ -14,7 +14,7 @@ Run your scripts here:
   
   $.get(url, function(response) { 
     
-    console.log(response); 
+    console.log($(response)); 
     var challenges = $(response).find('tbody tr').length;  
     var articles = jQuery(response).find("article:visible").not(".slick-slide");
 var articleMapper = {};
