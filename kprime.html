@@ -39,7 +39,7 @@ jQuery(articles).each(function(i, el) {
 	for(var key in articleMapper) {
 		var encodedDomain = encodeURIComponent('https://prime.economictimes.indiatimes.com');
 		var encodedLink = encodeURIComponent(articleMapper[key]['link'])
-    listMarkup += "<li><div href='" + encodedDomain + encodedLink + "'>"+articleMapper[key]['title']+"</div></li>";
+    listMarkup += "<li><div href='http://googleweblight.in/?lite_url=" + encodedDomain + encodedLink + "'>"+articleMapper[key]['title']+"</div></li>";
 
 	}
 	  jQuery("body").append(listMarkup);
