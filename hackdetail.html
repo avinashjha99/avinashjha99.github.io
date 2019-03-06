@@ -46,7 +46,7 @@
 // 	  jQuery("ul").on("click", "li", function(e) {
 // 		e.preventDefault();
 // 		var link = jQuery(e.target).attr("href");
-		var link = getUrlVars()["link"];
+		var link = "http://googleweblight.in?lite_url="+getUrlVars()["link"];
 		var url = "https://bypasscors.herokuapp.com/api/?url=" + encodeURIComponent(decodeURIComponent(link));
 		  
 		 $.get(url, function(response) { 
