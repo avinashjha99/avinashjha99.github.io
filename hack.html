@@ -30,7 +30,7 @@ jQuery(articles).each(function(i, el) {
 	articleMapper[i].link = $(el).find("a").eq(0).attr("href");
 });
 	  
-console.log(JSON.stringify(articleMapper));
+console.table(articleMapper);
   
   }); 
   
