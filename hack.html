@@ -49,7 +49,7 @@ jQuery(articles).each(function(i, el) {
 		var url = "https://bypasscors.herokuapp.com/api/?url=" + encodeURIComponent(decodeURIComponent(link));
 		  
 		 $.get(url, function(response) { 
-		 	console.log(jQuery(response));
+		 	console.log($(response).find(".artcl_txt.noprint").text());
 			 jQuery(".reading_area").html($(response).find(".artcl_txt.noprint").text());
 		 });
 	})
