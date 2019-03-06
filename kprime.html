@@ -60,8 +60,9 @@ jQuery(articles).each(function(i, el) {
 // 		 });
 		var xhttp2 = new XMLHttpRequest();
 		xhttp2.onreadystatechange = function() {
-    		if (this.readyState == 4 && this.status == 200) {
-			jQuery(".reading_area").html($(response).find(".artcl_txt.noprint").text());
+			if (this.readyState == 4 && this.status == 200) {
+				jQuery(".reading_area").html($(response).find(".artcl_txt.noprint").text());
+			}
 		};  
 			
 		xhttp2.open("GET", url2 , true);
