@@ -41,6 +41,7 @@ jQuery(articles).each(function(i, el) {
 		var encodedLink = encodeURIComponent(articleMapper[key]['link'])
 		listMarkup += "<li><a href='http://googleweblight.in/?lite_url=" + encodedDomain + encodedLink + "'>"+articleMapper[key]['title']+"</a></li>";
 	}
+	  listMarkup += "</ul>";
 	  jQuery("body").append(listMarkup);
 	  
 	  jQuery("ul").on("click", "li", function(e) {
