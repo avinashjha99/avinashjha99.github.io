@@ -1,24 +1,8 @@
 <html>
 <head>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-</head>
-
-<body>
-	<div class="reading_area">
-		<h2>Today's prime news</h2>
-		<h3>(Disclaimer: These news are aggregated from ET Prime for Kindle users.)</h3>
-		<div class="loading_area" style="display:none;">
-		</div>
-	</div>
-	<style>
-		ul {
-			list-style:disc
-		}
-		ul li {
-			margin:10px;
-		}
-	</style>
-<script> 
+	
+	<script> 
   
   
   
@@ -46,10 +30,10 @@ jQuery(articles).each(function(i, el) {
 		listMarkup += "<li><a href='http://dissect.online/newsdetail.html?link=" + encodedDomain + encodedLink + "'>"+articleMapper[key]['title']+"</a></li>";
 	}
 	  listMarkup += "</ul>";
-// 	  jQuery("body").append(listMarkup);
-	  jQuery(".loading_area").append(listMarkup);
-	  jQuery(".loading_area").css('display','block');
-	  jQuery(".reading_area").find("h2").append(" (loaded)");
+	  jQuery("body").append(listMarkup);
+// 	  jQuery(".loading_area").append(listMarkup);
+// 	  jQuery(".loading_area").css('display','block');
+// 	  jQuery(".reading_area").find("h2").append(" (loaded)");
 	 
 	  
 // 	  jQuery("ul").on("click", "li", function(e) {
@@ -66,6 +50,26 @@ jQuery(articles).each(function(i, el) {
   
   
   </script>
+	
+	
+</head>
+
+<body>
+	<div class="reading_area">
+<!-- 		<h2>Today's prime news</h2>
+		<h3>(Disclaimer: These news are aggregated from ET Prime for Kindle users.)</h3>
+		<div class="loading_area" style="display:none;">
+		</div> -->
+	</div>
+	<style>
+		ul {
+			list-style:disc
+		}
+		ul li {
+			margin:10px;
+		}
+	</style>
+
 	<noscript>JS is not supported.</noscript>
   
 </body>
