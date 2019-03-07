@@ -30,7 +30,8 @@ jQuery(articles).each(function(i, el) {
 		listMarkup += "<li><a href='http://dissect.online/newsdetail.html?link=" + encodedDomain + encodedLink + "'>"+articleMapper[key]['title']+"</a></li>";
 	}
 	  listMarkup += "</ul>";
-	  jQuery("body").append(listMarkup);
+// 	  jQuery("body").append(listMarkup);
+	  jQuery("body").append("<p>from script</p>");
 // 	  jQuery(".loading_area").append(listMarkup);
 // 	  jQuery(".loading_area").css('display','block');
 // 	  jQuery(".reading_area").find("h2").append(" (loaded)");
