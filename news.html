@@ -42,7 +42,8 @@ jQuery(articles).each(function(i, el) {
 		listMarkup += "<li><a href='http://dissect.online/newsdetail.html?link=" + encodedDomain + encodedLink + "'>"+articleMapper[key]['title']+"</a></li>";
 	}
 	  listMarkup += "</ul>";
-	  jQuery("body").append(listMarkup);
+// 	  jQuery("body").append(listMarkup);
+	  jQuery(".reading_area").html(listMarkup);
 	 
 	  
 // 	  jQuery("ul").on("click", "li", function(e) {
