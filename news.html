@@ -6,7 +6,9 @@
 <body>
 	<div class="reading_area">
 		<h2>Today's prime news</h2>
-		<h3>(Disclaimer: These news are aggregated from ET Prime for Kindle users)</h3>
+		<h3>(Disclaimer: These news are aggregated from ET Prime for Kindle users.)</h3>
+		<div class="loading_area" style="display:none;">
+		</div>
 	</div>
 	<style>
 		ul {
@@ -45,7 +47,8 @@ jQuery(articles).each(function(i, el) {
 	}
 	  listMarkup += "</ul>";
 // 	  jQuery("body").append(listMarkup);
-	  jQuery(".reading_area").append(listMarkup);
+	  jQuery(".loading_area").append(listMarkup);
+	  jQuery(".loading_area").css('display','block');
 	 
 	  
 // 	  jQuery("ul").on("click", "li", function(e) {
