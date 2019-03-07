@@ -41,7 +41,9 @@ jQuery(articles).each(function(i, el) {
 		var encodedLink = encodeURIComponent(articleMapper[key]['link'])
 		listMarkup += "<li><a href='http://dissect.online/newsdetail.html?link=" + encodedDomain + encodedLink + "'>"+articleMapper[key]['title']+"</a></li>";
 	}
+	  listMarkup += "</ul>";
 	  jQuery("body").append(listMarkup);
+	 
 	  
 // 	  jQuery("ul").on("click", "li", function(e) {
 // 		e.preventDefault();
